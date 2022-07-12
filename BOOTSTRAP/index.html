@@ -1,0 +1,218 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- div ends here -->
+      <!-- Navbar starts here -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="#">Standard Chartered</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Navbar ends here -->
+      <h1 class="page-header">Bootstrap Playground</h1>
+
+      <p class="lead">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident id
+        corrupti eveniet molestias, corporis reprehenderit officiis eaque
+        expedita at, laboriosam harum impedit modi inventore, maxime dolores ad
+        voluptates. Laborum, cumque.
+      </p>
+
+      <p>
+        <mark>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima totam
+          obcaecati at ea vel illo pariatur molestiaeLorem ipsum dolor sit amet
+          consectetur adipisicing elit. Minima totam obcaecati at ea vel illo
+          pariatur molestiae
+        </mark>
+        eveniet cum et dolorem, numquam eius minus tempore provident natus
+        aliquid fuga consequuntur.
+      </p>
+
+      <hr />
+
+      <!-- Alignments -->
+      <p class="text-left">Left Aligned Text</p>
+      <p class="text-right">Right Aligned Text</p>
+      <p class="text-center">Center Aligned Text</p>
+      <p class="text-justify">Justified Text</p>
+      <p class="text-nowrap">No Wrap Text</p>
+
+      <hr />
+
+      <!-- Floating Elements -->
+      <div style="border: 1px solid lightgray" class="float-right">
+        Div floated to Right
+      </div>
+      <div style="border: 1px solid lightgray" class="float-left">
+        Div floated to Left
+      </div>
+
+      <div class="clearfix"></div>
+
+      <hr />
+
+      <!-- Colors -->
+
+      <p class="text-primary">Hello World primary</p>
+      <p class="text-secondary">Hello World secondary</p>
+      <p class="text-success">Hello World success</p>
+      <p class="text-warning">Hello World warning</p>
+      <p class="text-danger">Hello World danger</p>
+      <p class="text-info">Hello World info</p>
+      <p class="text-muted">Hello World muted</p>
+
+      <hr />
+
+      <p class="bg-primary">Hello World primary</p>
+      <p class="bg-secondary">Hello World secondary</p>
+      <p class="bg-success">Hello World success</p>
+      <p class="bg-warning">Hello World warning</p>
+      <p class="bg-danger">Hello World danger</p>
+      <p class="bg-info">Hello World info</p>
+      <p class="bg-muted">Hello World muted</p>
+      <!-- div ends here -->
+    </div>
+
+    <hr />
+
+    <div class="container">
+      <!-- div starts here -->
+
+      <!-- Buttons -->
+
+      <button class="btn btn-warning">Default</button>
+      <a href="#" class="btn btn-primary">Link</a>
+      <input type="submit" value="Submit Button" class="btn btn-success" />
+
+      <hr />
+
+      <!-- div ends here -->
+    </div>
+
+    <hr />
+
+    <div class="container">
+      <!-- Div starts here -->
+
+      <!-- Forms  -->
+
+      <form action="">
+        <div class="form-group">
+          <label for="">Name:</label>
+          <input
+            type="text"
+            name=""
+            class="form-control"
+            placeholder="Enter Name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="">Email:</label>
+          <input
+            type="email"
+            name=""
+            class="form-control"
+            placeholder="Enter Email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="">Message:</label>
+          <textarea class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="inputState">Select Country</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>India</option>
+            <option>Malaysia</option>
+            <option>UK</option>
+          </select>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="inlineCheckbox1"
+            value="option1"
+          />
+          <label class="form-check-label" for="inlineCheckbox1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="inlineCheckbox2"
+            value="option2"
+          />
+          <label class="form-check-label" for="inlineCheckbox2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="inlineCheckbox3"
+            value="option3"
+            disabled
+          />
+          <label class="form-check-label" for="inlineCheckbox3"
+            >3 (disabled)</label
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="">Upload CV</label>
+          <input type="file" class="form-control" />
+          <p class="help-block">ONLY PDF</p>
+        </div>
+        <br />
+        <div class="form-group">
+          <button class="btn btn-info">Submit Data</button>
+        </div>
+      </form>
+
+      <!-- Div ends here -->
+    </div>
+
+    <div style="height: 300px"></div>
+  </body>
+</html>
