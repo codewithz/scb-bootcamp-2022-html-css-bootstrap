@@ -3,3 +3,19 @@
         width: 30%;
         margin: 10px;
 }
+
+.gold{
+    background-color: gold;
+    height: 100px;
+    overflow: hidden;
+}
+.dodgerblue{
+    background-color: dodgerblue;
+    height: 100px;
+    overflow: hidden;
+}
+.tomato{
+    background-color: tomato;
+    height: 100px;
+    overflow: hidden;
+}
